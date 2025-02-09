@@ -162,28 +162,25 @@ crossOrigin="anonymous"></script>
 </div>
 <div className="d-block d-lg-none ">
 <div className={`wrapper p-1 ${call} text-center w-100`}>
-  {info.face? <a href={info.face} className="icon p-1 facebook">
+{info.face? <a href={info.face} className="icon p-1 facebook">
     <div className="tooltip coloric">Facebook</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-facebook-f"></i></span>
   </a>:""}
- <a href={info.twitter} className="icon  p-1 twitter">
+ <a href="https://x.com/haizzdes" className="icon  p-1 twitter" target="blank">
     <div className="tooltip coloric">Twitter</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-twitter"></i></span>
   </a>
-  <a href={info.insta} className="icon  p-1 instagram">
-    <div className="tooltip coloric">Instagram</div>
+  <a href="https://www.instagram.com/haizzdes/" className="icon  p-1 instagram" target="blank">
+    <div className="tooltip coloric" target="blank">Instagram</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-instagram"></i></span>
   </a>
- {info.snap?<a href={info.snap} className="icon  p-1 github">
-    <div className="tooltip coloric">Github</div>
-    <span><i id="coloric" className="fab coloric fa-1x  fa-tiktok"></i></span>
-  </a>:""}
-  {info.tik?<a href={info.tik} className="icon  p-1 youtube">
+
+  <a href="https://www.tiktok.com/@haizzdes?lang=ar" className="icon  p-1 youtube" target="blank">
     <div className="tooltip coloric">Youtube</div>
-    <span><i id="coloric" className="fab coloric fa-1x fa-linkedin"></i></span>
-  </a>:""}
+    <span><i id="coloric" className="fab coloric fa-1x fa-tiktok" ></i></span>
+  </a>
   <span className="ppp text-dark">haizzdes</span>
-  <a  href="https://api.whatsapp.com/send?phone=0501133232"><i id="coloric"  className="fab fa-whatsapp  fa-1x "></i></a>
+  <a  href="https://wa.me/+966542305983" target="blank"><i id="coloric"  className="fab fa-whatsapp  fa-1x "></i></a>
   <a className="ppp text-dark" href={`tel:0542305983}`}>054 230 5983</a>
 </div>
 </div>
@@ -212,24 +209,21 @@ crossOrigin="anonymous"></script>
     <div className="tooltip coloric">Facebook</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-facebook-f"></i></span>
   </a>:""}
- <a href={info.twitter} className="icon  p-1 twitter">
+ <a href="https://x.com/haizzdes" className="icon  p-1 twitter" target="blank">
     <div className="tooltip coloric">Twitter</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-twitter"></i></span>
   </a>
-  <a href={info.insta} className="icon  p-1 instagram">
-    <div className="tooltip coloric">Instagram</div>
+  <a href="https://www.instagram.com/haizzdes/" className="icon  p-1 instagram" target="blank">
+    <div className="tooltip coloric" target="blank">Instagram</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-instagram"></i></span>
   </a>
- {info.snap?<a href={info.snap} className="icon  p-1 github">
-    <div className="tooltip coloric">Github</div>
-    <span><i id="coloric" className="fab coloric fa-1x  fa-tiktok"></i></span>
-  </a>:""}
-  {info.tik?<a href={info.tik} className="icon  p-1 youtube">
+
+  <a href="https://www.tiktok.com/@haizzdes?lang=ar" className="icon  p-1 youtube" target="blank">
     <div className="tooltip coloric">Youtube</div>
-    <span><i id="coloric" className="fab coloric fa-1x fa-linkedin"></i></span>
-  </a>:""}
+    <span><i id="coloric" className="fab coloric fa-1x fa-tiktok" ></i></span>
+  </a>
   <span className="ppp text-dark">haizzdes</span>
-  <a  href="https://api.whatsapp.com/send?phone=0501133232"><i id="coloric"  className="fab fa-whatsapp  fa-1x "></i></a>
+  <a  href="https://wa.me/+966542305983" target="blank"><i id="coloric"  className="fab fa-whatsapp  fa-1x "></i></a>
   <a className="ppp text-dark" href={`tel:0542305983}`}>054 230 5983</a>
 </div>
 

@@ -36,9 +36,7 @@ crossOrigin="anonymous">
   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=" رقم الواتساب"onChange={ontel} />
 </div>
 
-<div class="mb-3">
-  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="وقت التواصل"onChange={ontime}/>
-</div>
+
 <p className="text-center div-des dactive-billx">سيتم التواصل معكم في أقرب وقت</p>
 </div>
     );
