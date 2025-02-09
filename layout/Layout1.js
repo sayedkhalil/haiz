@@ -203,7 +203,7 @@ crossOrigin="anonymous"></script>
 <nav className="navbar navbar-dark ">
   <div className="container">
     <a className="navbar-dark  mx-auto" href="#">
-      <img src={info.logo} alt="" width="100" height="70" className="d-inline-block align-text-top"/>
+      <img src="ico.svg" alt="" width="100" height="70" className="d-inline-block align-text-top"/>
     </a>
   </div>
 </nav>
