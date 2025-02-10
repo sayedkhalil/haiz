@@ -137,7 +137,7 @@ crossOrigin="anonymous"></script>
         </a>
         </Link> */}
 
-     <button className="btn  btn-sm"onClick={onncal} >اتصل بنا </button>  
+     <button className="btn text-white  btn-sm"onClick={onncal} >اتصل بنا </button>  
      <button className="navbar-toggler" type="button">
      <i class="fas fa-bars"></i>    </button>
     <div className="  navbar-collapse " >
@@ -198,11 +198,7 @@ crossOrigin="anonymous"></script>
 {children}
 <div className={`p-1 ${styles.footerx}`}>
 <nav className="navbar navbar-dark ">
-  <div className="container">
-    <a className="navbar-dark  mx-auto" href="#">
-      <img src="ico.svg" alt="" width="100" height="70" className="d-inline-block w-50 align-text-top"/>
-    </a>
-  </div>
+
 </nav>
 <div className="wrapper mt-1 text-center">
 {info.face? <a href={info.face} className="icon p-1 facebook">
@@ -222,7 +218,7 @@ crossOrigin="anonymous"></script>
     <div className="tooltip coloric">Youtube</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-tiktok" ></i></span>
   </a>
-  <span className="ppp text-dark">haizzdes</span>
+  <span className="ppp text-dark">haizeid</span>
   <a  href="https://wa.me/+966542305983" target="blank"><i id="coloric"  className="fab fa-whatsapp  fa-1x "></i></a>
   <a className="ppp text-dark" href={`tel:0542305983}`}>054 230 5983</a>
 </div>

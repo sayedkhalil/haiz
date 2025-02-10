@@ -157,7 +157,7 @@ a {
 }
 .ppp {
   padding: 15px;
-
+  font-size: smaller;
   font-weight: bold;
   color: #262849;
 }
@@ -338,7 +338,7 @@ font-size: x-small;
   direction: rtl;
 }
 .ll{
-  background-color: rgb(231, 228, 228);
+  background-color: #fdf7e6e5;
   padding: 0px;
   width: 100%;
   text-align: center;

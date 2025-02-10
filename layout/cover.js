@@ -21,7 +21,7 @@ crossOrigin="anonymous">
 </script>
  <img className="w-100 h-90 " src="cover.png" alt="" />
  <div className="divcover">
-   <p className="w-100 text-center  my-4 tit">جملة تعبر عن المشروع دعائية</p>     
+   <p className="w-100 text-center  my-4 tit">حيز يعبر عنك</p>     
    <p className="w-100 text-end text-light mt-5 p-3 start">ابدأ مشروعك</p>     
    <div className="row mt-4 mx-3  div-row p-2">
         <img className="col-2 p-3" src="arrow.svg" alt="" />
