@@ -345,3 +345,15 @@ font-size: x-small;
   margin: 0%;
   box-sizing: border-box;
 }
+.ffs{
+  font-size: x-small;
+}
+.ww-25{
+  width: 30;
+}
+.ffss{
+  font-size: smaller;
+}
+.err{
+  overflow: scroll;
+}

@@ -30,10 +30,10 @@ crossOrigin="anonymous">
 </script>
 <p className="text-end my-3">بيانات العميل</p>
 <div class="mb-3">
-  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="اسم العميل" onChange={onname} />
+  <input type="text" class="form-control ffss" id="exampleFormControlInput1" placeholder="اسم العميل" onChange={onname} />
 </div>
 <div class="mb-3">
-  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=" رقم الواتساب"onChange={ontel} />
+  <input type="text" class="form-control ffss" id="exampleFormControlInput1" placeholder=" رقم الواتساب"onChange={ontel} />
 </div>
 
 

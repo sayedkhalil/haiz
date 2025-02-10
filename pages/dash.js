@@ -63,7 +63,7 @@ const onchan=(e)=>{
          </div>
         </div>
       </div>
-      <select class="form-select" aria-label="Default select example" onChange={onchan}>
+      <select class="form-select ffss" aria-label="Default select example" onChange={onchan}>
       <option selected>فلترة الطلبات</option>
       <option value="1">جديد</option>
       <option value="2">تم التواصل</option>
@@ -73,7 +73,7 @@ const onchan=(e)=>{
       <div className='w-100 p-2 row  boxs m-0 '>
         {
           items.map(x=>(
-            <div key={x.rang6.name} className='w-100 p-1 my-1 active-bill rounded' onClick={()=>{setitem(x);setactive("fa")}}>
+            <div key={x.rang6.name} className='w-100 p-2 my-1 active-bill rounded ffss text-end' onClick={()=>{setitem(x);setactive("fa")}}>
                {x.rang6.name?x.rang6.name:""}
             </div>
           ))

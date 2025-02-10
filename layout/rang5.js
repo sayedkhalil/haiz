@@ -45,30 +45,30 @@ crossOrigin="anonymous">
 </script>
 <p className="text-end my-3">بيانات الموقع</p>
 <div class="mb-3">
-  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="عنوان الموقع" onChange={onlocation}/>
+  <input type="text" class="form-control ffss" id="exampleFormControlInput1" placeholder="عنوان الموقع" onChange={onlocation}/>
 </div>
 <div class="mb-3">
-  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="مساحة الموقع"onChange={onspace}/>
+  <input type="text" class="form-control ffss" id="exampleFormControlInput1" placeholder="مساحة الموقع"onChange={onspace}/>
 </div>
 <div class="form-check mb-3 form-switch">
   <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onChange={onplan}/>
-  <label class="form-check-label" for="flexSwitchCheckDefault">هل يوجد مخطط</label>
+  <label class="form-check-label ffss" for="flexSwitchCheckDefault">هل يوجد مخطط</label>
 </div>
 <div class="form-check mb-3 form-switch">
   <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onChange={onsakany}/>
-  <label class="form-check-label" for="flexSwitchCheckDefault">هل أنت من ملاك سكني/البيع على خارطة الطريق</label>
+  <label class="form-check-label ffss" for="flexSwitchCheckDefault">هل أنت من ملاك سكني/البيع على الخارطة في الرياض</label>
 </div>
 <div class={`mb-3 ${active}`}>
-  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="اسم المشروع"onChange={onsakanloc}/>
+  <input type="text" class="form-control ffss" id="exampleFormControlInput1" placeholder="اسم المشروع"onChange={onsakanloc}/>
 </div>
 <div class={`mb-3 ${active}`}>
-  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="نموذج الوحدة السكنية"onChange={onsakan}/>
+  <input type="text" class="form-control ffss" id="exampleFormControlInput1" placeholder="نموذج الوحدة السكنية"onChange={onsakan}/>
 </div>
 <div class="mb-3">
-  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="الوقت المتوقع للاستلام"onChange={ontime}/>
+  <input type="text" class="form-control ffss" id="exampleFormControlInput1" placeholder="الوقت المتوقع للاستلام"onChange={ontime}/>
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">ملاحظات</label>
+  <label for="exampleFormControlTextarea1 ffss" class="form-label">ملاحظات</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"onChange={onnotes}></textarea>
 </div>
 </div>

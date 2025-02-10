@@ -7,7 +7,7 @@ import ProdItem from "./proditem";
 const Xrang1 = (props) => {
 
 const rang1=[{src:"rang3-5.png",title:"إضاءة"},{src:"xrang1-2.png",title:"خزائن"},
-    {src:"xrang1-3.png",title:"مطابخ"},{src:"xrang1-4.png",title:"دورات مياه"}]
+    {src:"xrang1-3.png",title:"مطابخ"},{src:"xrang1-4.png",title:"دورات مياه"},{src:"xrang1-5.png",title:"تأثيث"},{src:"xrang1-6.png",title:"أخرى"}]
 const setarray =(t)=>{
     props.items.setarray({...props.items.array,rang1:t})
 }

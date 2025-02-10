@@ -200,11 +200,11 @@ crossOrigin="anonymous"></script>
 <nav className="navbar navbar-dark ">
   <div className="container">
     <a className="navbar-dark  mx-auto" href="#">
-      <img src="ico.svg" alt="" width="100" height="70" className="d-inline-block align-text-top"/>
+      <img src="ico.svg" alt="" width="100" height="70" className="d-inline-block w-50 align-text-top"/>
     </a>
   </div>
 </nav>
-<div className="wrapper text-center">
+<div className="wrapper mt-1 text-center">
 {info.face? <a href={info.face} className="icon p-1 facebook">
     <div className="tooltip coloric">Facebook</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-facebook-f"></i></span>
@@ -227,8 +227,7 @@ crossOrigin="anonymous"></script>
   <a className="ppp text-dark" href={`tel:0542305983}`}>054 230 5983</a>
 </div>
 
-<h6 className="card-title text-center text-dark">{`الحقوق محفوظة${info.name} © 2025`}</h6>
-<h6 className="card-title text-center text-dark">powered by <a  href="http://sayedkhalil.com">sayed khalil</a></h6>
+<p className="card-title text-center text-dark mt-2 ffs">{`الحقوق محفوظة${info.name} © 2025`}</p>
 </div>
 </div>
     );
