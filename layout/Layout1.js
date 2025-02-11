@@ -137,7 +137,7 @@ crossOrigin="anonymous"></script>
         </a>
         </Link> */}
 
-     <button className="btn text-white  btn-sm"onClick={onncal} >اتصل بنا </button>  
+     <button className="btn text-black  btn-sm"onClick={onncal} >اتصل بنا </button>  
      <button className="navbar-toggler" type="button">
      <i class="fas fa-bars"></i>    </button>
     <div className="  navbar-collapse " >
@@ -218,9 +218,9 @@ crossOrigin="anonymous"></script>
     <div className="tooltip coloric">Youtube</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-tiktok" ></i></span>
   </a>
-  <span className="ppp text-dark">haizeid</span>
+  <span className="pppp text-dark">haizeid</span>
   <a  href="https://wa.me/+966542305983" target="blank"><i id="coloric"  className="fab fa-whatsapp  fa-1x "></i></a>
-  <a className="ppp text-dark" href={`tel:0542305983}`}>054 230 5983</a>
+  <a className="pppp text-dark" href={`tel:0542305983}`}>054 230 5983</a>
 </div>
 
 <p className="card-title text-center text-dark mt-2 ffs">{`الحقوق محفوظة${info.name} © 2025`}</p>

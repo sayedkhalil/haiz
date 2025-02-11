@@ -8,7 +8,7 @@ const Rang1 = (props) => {
 
 const rang1=[{src:"rang1-1.png",title:"نمط منتصف القرن"},{src:"rang1-2.png",title:"نمط تقليدي حديث"},
     {src:"rang1-3.png",title:"نمط حديث"},{src:"rang1-4.png",title:"نمط بوهيمي"},{src:"rang1-5.png",title:"نمط السكندنافي"},
-    {src:"rang1-6.png",title:"نمط شعبي حديث"},,{src:"rang1-7.png",title:"نمط معاصر"}]
+    {src:"rang1-6.png",title:"نمط شعبي حديث"},{src:"rang1-7.png",title:"نمط معاصر"},{src:"rang1-8.png",title:"نمط انتقائي"}]
 const setarray =(t)=>{
     props.items.setarray({...props.items.array,rang1:t})
 }

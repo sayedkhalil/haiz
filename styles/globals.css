@@ -338,7 +338,7 @@ font-size: x-small;
   direction: rtl;
 }
 .ll{
-  background-color: #fdf7e6e5;
+  background-color: #fffcf5e5;
   padding: 0px;
   width: 100%;
   text-align: center;
@@ -356,4 +356,9 @@ font-size: x-small;
 }
 .err{
   overflow: scroll;
+}
+.pppp {
+  padding: 15px;
+  font-size: smaller;
+  color: #262849;
 }
