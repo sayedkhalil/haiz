@@ -21,7 +21,7 @@ crossOrigin="anonymous">
 </script>
  <img className="w-100 h-90 " src="cover.png" alt="" />
  <div className="divcover">
-   <p className="w-100 text-center   my-4 tit">حيز يعبر عنك</p>     
+   <p className="w-100 text-center   my-5 tit">حيز يعبر عنك</p>     
    <p className="w-100 text-end text-light mt-5 p-3 start">ابدأ مشروعك</p>     
    <div className="row mt-4 mx-3  div-row p-2">
         <img className="col-2 p-3" src="arrow.svg" alt="" />
@@ -30,7 +30,7 @@ crossOrigin="anonymous">
                         خدمة التأثيث
                 </p>
                 <p className="text-end text-light div-des">
-                نقدم خدمة تأثيث متكاملة وحلول تصميمية لمساحتك تلبي جميع احتياجاتك الوظيفية وميزانيتك , تحقيق رؤيتك للمساحات المثالية و حلولًا مبتكرة لتحسين استغلال المساحات 
+                نقدم خدمة تأثيث متكاملة وحلول تصميمية لمساحتك تلبي جميع احتياجاتك الوظيفية وميزانيتك وتحقيق رؤيتك للمساحات المثالية و حلولًا مبتكرة لتحسين استغلال المساحات 
                 </p>
 
         </div>
@@ -42,13 +42,13 @@ crossOrigin="anonymous">
                 خدمة استشارة
                 </p>
                 <p className="text-end text-light div-des">
-                نقدّم حلول تصميمة مبتكرة لمساحتك إما عن طريق الزيارة او عن بعد لمدة ساعة
+                نقدّم حلول تصميمية مبتكرة لمساحتك إما عن طريق الزيارة او عن بعد لمدة ساعة
                 </p>
 
         </div>
    </div>  
-              <a className="btn  btn-sm d-block d-lg-none dfe" href="" download>تحميل  سابقة الأعمال</a>
-              <a className="btn btn-success btn-lg d-none d-lg-block d-xl-block dfee" href="" download>تحميل بروفايل الشركة</a>
+              <a className="btn  btn-sm d-block d-lg-none dfe" href="https://firebasestorage.googleapis.com/v0/b/ebdaasa-71b51.appspot.com/o/portfolio%20REV-02%20F3.pdf?alt=media&token=40c9af21-0cc3-4aa3-b9cc-e940ef902b43" target="blank">تحميل  سابقة الأعمال</a>
+              <a className="btn btn-success btn-lg d-none d-lg-block d-xl-block dfee" href="https://firebasestorage.googleapis.com/v0/b/ebdaasa-71b51.appspot.com/o/portfolio%20REV-02%20F3.pdf?alt=media&token=40c9af21-0cc3-4aa3-b9cc-e940ef902b43" target="blank">تحميل بروفايل الشركة</a>
 </div>
 </div>
     );

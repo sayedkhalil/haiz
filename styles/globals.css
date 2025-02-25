@@ -156,23 +156,16 @@ a {
   color: #856751;
 }
 .ppp {
-  padding: 15px;
   font-size: smaller;
   font-weight: bold;
   color: #262849;
+  display: block;
+  margin: 0%;
 }
 .bg-li{
   background-color: rgb(243, 246, 250);
 }
-.aboo{
- height:180px;
-background-image: url("../public/bgaa.jpg");
-background-position: center;
-background-attachment: fixed;
- margin-bottom: 10px;
- text-align: center;
- padding-top: 30px;
-}
+
 .dfe{
   position: absolute;
   bottom: 100px;
@@ -217,7 +210,7 @@ background-attachment: fixed;
 }
 .tit{
   color: #C9BCA9;
-  font-size: x-large;
+  font-size: xx-large;
 font-weight: bolder;}
 .start{
   font-size: large;
@@ -358,7 +351,7 @@ font-size: x-small;
   overflow: scroll;
 }
 .pppp {
-  padding: 15px;
+  padding: 5px;
   font-size: smaller;
   color: #262849;
 }

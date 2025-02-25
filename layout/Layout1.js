@@ -139,7 +139,7 @@ crossOrigin="anonymous"></script>
 
      <button className="btn text-black  btn-sm"onClick={onncal} >اتصل بنا </button>  
      <button className="navbar-toggler" type="button">
-     <i class="fas fa-bars"></i>    </button>
+       </button>
     <div className="  navbar-collapse " >
       <ul className={`navbar-nav bg-light ${nav} `}>
         <li className="nav-item ms-auto">
@@ -166,16 +166,16 @@ crossOrigin="anonymous"></script>
     <div className="tooltip coloric">Facebook</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-facebook-f"></i></span>
   </a>:""}
- <a href="https://x.com/haizzdes" className="icon  p-1 twitter" target="blank">
+ <a href="https://x.com/haizzdes" className="icon  p-0 twitter" target="blank">
     <div className="tooltip coloric">Twitter</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-twitter"></i></span>
   </a>
-  <a href="https://www.instagram.com/haizzdes/" className="icon  p-1 instagram" target="blank">
+  <a href="https://www.instagram.com/haizzdes/" className="icon  p-0 instagram" target="blank">
     <div className="tooltip coloric" target="blank">Instagram</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-instagram"></i></span>
   </a>
 
-  <a href="https://www.tiktok.com/@haizzdes?lang=ar" className="icon  p-1 youtube" target="blank">
+  <a href="https://www.tiktok.com/@haizzdes?lang=ar" className="icon  p-0 youtube" target="blank">
     <div className="tooltip coloric">Youtube</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-tiktok" ></i></span>
   </a>
@@ -223,7 +223,7 @@ crossOrigin="anonymous"></script>
   <a className="pppp text-dark" href={`tel:0542305983}`}>054 230 5983</a>
 </div>
 
-<p className="card-title text-center text-dark mt-2 ffs">{`الحقوق محفوظة${info.name} © 2025`}</p>
+<p className="card-title text-center text-dark mt-2 ffs">{`الحقوق محفوظة لحيز للتصميم © 2025`}</p>
 </div>
 </div>
     );
