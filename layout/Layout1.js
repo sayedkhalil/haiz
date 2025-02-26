@@ -180,8 +180,8 @@ crossOrigin="anonymous"></script>
     <span><i id="coloric" className="fab coloric fa-1x fa-tiktok" ></i></span>
   </a>
   <span className="ppp text-dark">haizzdes</span>
-  <a  href="https://wa.me/+966542305983" target="blank"><i id="coloric"  className="fab fa-whatsapp  fa-1x "></i></a>
-  <a className="ppp text-dark" href={`tel:0542305983}`}>054 230 5983</a>
+  <a  href="https://wa.me/+966539603066" target="blank"><i id="coloric"  className="fab fa-whatsapp  fa-1x "></i></a>
+  <a className="ppp text-dark" href={`tel:0539603066}`}>053 960 3066</a>
 </div>
 </div>
 {/* <div className="fixed">
@@ -219,8 +219,8 @@ crossOrigin="anonymous"></script>
     <span><i id="coloric" className="fab coloric fa-1x fa-tiktok" ></i></span>
   </a>
   <span className="pppp text-dark">haizeid</span>
-  <a  href="https://wa.me/+966542305983" target="blank"><i id="coloric"  className="fab fa-whatsapp  fa-1x "></i></a>
-  <a className="pppp text-dark" href={`tel:0542305983}`}>054 230 5983</a>
+  <a  href="https://wa.me/+966539603066" target="blank"><i id="coloric"  className="fab fa-whatsapp  fa-1x "></i></a>
+  <a className="pppp text-dark" href={`tel:0539603066}`}>053 960 3066</a>
 </div>
 
 <p className="card-title text-center text-dark mt-2 ffs">{`الحقوق محفوظة لحيز للتصميم © 2025`}</p>

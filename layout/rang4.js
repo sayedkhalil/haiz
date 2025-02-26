@@ -9,7 +9,7 @@ const Rang4 = (props) => {
 
 const rang4=[{src:"rang4-1.png",title:"غرفة الطعام"},{src:"rang4-2.png",title:"غرفة النوم الرئيسية"},{src:"rang4-3.png",title:"غرفة نوم شخصين"},
     {src:"rang4-4.png",title:"غرفة أطفال"},{src:"rang4-5.png",title:"غرفة معيشة"},{src:"rang4-6.png",title:"غرفة الخادمة"},
-    {src:"rang4-7.png",title:"المدخل"},{src:"rang4-8.png",title:"المجلس"},{src:"rang4-9.png",title:"جلسة خارجية"}]
+    {src:"rang4-7.png",title:"المدخل"},{src:"rang4-8.png",title:"المجلس"},{src:"rang4-9.png",title:"جلسة خارجية"},{src:"rang4-10.png",title:"أخرى"}]
 const setarray =(t)=>{
     props.items.setarray({...props.items.array,rang4:t})
 }
