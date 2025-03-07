@@ -11,6 +11,7 @@ import Rang4 from '../layout/rang4';
 import Rang5 from '../layout/rang5';
 import Rang6 from '../layout/rang6';
 import Item from '../layout/item';
+import AuthRoute from "../authrout";
 export const getStaticProps =async()=>{
   const de=[]
   const pro=[]
@@ -40,6 +41,7 @@ const onchan=(e)=>{
   setitems(filt.filter(x=>(x.rang6.case==e.target.value)))
 }
     return (
+      <AuthRoute>
       <div className='w-100 p-2  boxs m-0 '>
       <Head>
         <title>خدمة التأثيث</title> 
@@ -80,6 +82,7 @@ const onchan=(e)=>{
         }
        </div>
     </div>
+    </AuthRoute>
     );
 }
  

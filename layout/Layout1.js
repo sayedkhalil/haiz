@@ -166,20 +166,20 @@ crossOrigin="anonymous"></script>
     <div className="tooltip coloric">Facebook</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-facebook-f"></i></span>
   </a>:""}
- <a href="https://x.com/haizzdes" className="icon  p-0 twitter" target="blank">
+ <a href="https://x.com/DesHaize" className="icon  p-0 twitter" target="blank">
     <div className="tooltip coloric">Twitter</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-twitter"></i></span>
   </a>
-  <a href="https://www.instagram.com/haizzdes/" className="icon  p-0 instagram" target="blank">
+  <a href="https://www.instagram.com/haizeid/" className="icon  p-0 instagram" target="blank">
     <div className="tooltip coloric" target="blank">Instagram</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-instagram"></i></span>
   </a>
 
-  <a href="https://www.tiktok.com/@haizzdes?lang=ar" className="icon  p-0 youtube" target="blank">
+  <a href="https://www.tiktok.com/@haizeid?lang=ar" className="icon  p-0 youtube" target="blank">
     <div className="tooltip coloric">Youtube</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-tiktok" ></i></span>
   </a>
-  <span className="ppp text-dark">haizzdes</span>
+  <span className="ppp text-dark">haizeid</span>
   <a  href="https://wa.me/+966539603066" target="blank"><i id="coloric"  className="fab fa-whatsapp  fa-1x "></i></a>
   <a className="ppp text-dark" href={`tel:0539603066}`}>053 960 3066</a>
 </div>
@@ -205,16 +205,16 @@ crossOrigin="anonymous"></script>
     <div className="tooltip coloric">Facebook</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-facebook-f"></i></span>
   </a>:""}
- <a href="https://x.com/haizzdes" className="icon  p-1 twitter" target="blank">
+ <a href="https://x.com/DesHaize" className="icon  p-1 twitter" target="blank">
     <div className="tooltip coloric">Twitter</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-twitter"></i></span>
   </a>
-  <a href="https://www.instagram.com/haizzdes/" className="icon  p-1 instagram" target="blank">
+  <a href="https://www.instagram.com/haizeid/" className="icon  p-1 instagram" target="blank">
     <div className="tooltip coloric" target="blank">Instagram</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-instagram"></i></span>
   </a>
 
-  <a href="https://www.tiktok.com/@haizzdes?lang=ar" className="icon  p-1 youtube" target="blank">
+  <a href="https://www.tiktok.com/@haizeid?lang=ar" className="icon  p-1 youtube" target="blank">
     <div className="tooltip coloric">Youtube</div>
     <span><i id="coloric" className="fab coloric fa-1x fa-tiktok" ></i></span>
   </a>

@@ -24,7 +24,7 @@ const Login = () => {
     const infoSnap = await getDoc(docRef)
     if(infoSnap.data().email==mail){
       localStorage.setItem("uid",infoSnap.data().uid)
-      router.push('/admin')
+      router.push('/dash')
     }
      else{
         alert("تأكد من صحة البريد والرقم السري")
@@ -34,7 +34,7 @@ const Login = () => {
     return (
 <div className="w-100 p-0  boxs m-0">                <Head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
-   <title>مصنع فرسان الإنشاءات  للصناعة</title>
+   <title>حيز لتصميم</title>
    <link rel="icon" href="wew.png" type="image/x-icon" />
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
    <link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet"></link>
