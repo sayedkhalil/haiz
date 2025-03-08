@@ -30,9 +30,10 @@ export const getStaticProps =async()=>{
 }
 
 const Dash = ({getdata}) => {
-  const d =async()=>{
-    const de=[]
+  const de=[]
   const pro=[]
+  const d =async()=>{
+
  
   const codelist = collection(db, 'consults');
   const codesnapshot = await getDocs(codelist);
@@ -41,7 +42,7 @@ const Dash = ({getdata}) => {
   const prodsnapshot = await getDocs(prodlist);
   const products =async()=>await prodsnapshot.docs?prodsnapshot.docs.map(doc =>{ pro.push(doc.data())}):[]
     products()
-  console.log(de)
+
   }
   d()
 const[items,setitems]=useState(getdata.services?getdata.services:[])
@@ -68,12 +69,12 @@ const onchan=(e)=>{
       <Item data={{dat:item,stat:active,setactive}} />
       <div className='row w-100 p-2  boxs m-0 mb-2'>
         <div className='col-6 p-2'>
-         <div className={`w-100  text-center py-1 ${b1}`} onClick={()=>{setitems(getdata.services?getdata.services:[]);setfilt(getdata.services?getdata.services:[]);setb1("bbt");setb2("dbbt")}}>
+         <div className={`w-100  text-center py-1 ${b1}`} onClick={()=>{setitems(de);setfilt(de);setb1("bbt");setb2("dbbt")}}>
          خدمات التأثيث
          </div>
         </div>
         <div className='col-6 p-2'>
-         <div className={`w-100  text-center py-1 ${b2}`} onClick={()=>{setitems(getdata.consults?getdata.consults:[]);setfilt(getdata.consults?getdata.consults:[]);setb1("dbbt");setb2("bbt")}}>
+         <div className={`w-100  text-center py-1 ${b2}`} onClick={()=>{setitems(pro);setfilt(pro);setb1("dbbt");setb2("bbt")}}>
          خدمات الاستشارة
          </div>
         </div>
