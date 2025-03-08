@@ -12,6 +12,7 @@ import Rang5 from '../layout/rang5';
 import Rang6 from '../layout/rang6';
 import Item from '../layout/item';
 import AuthRoute from "../authrout";
+import { unstable_noStore as noStore } from 'next/cache';
 export const getStaticProps =async()=>{
   const de=[]
   const pro=[]
@@ -23,7 +24,7 @@ export const getStaticProps =async()=>{
   const prodsnapshot = await getDocs(prodlist);
   const products =async()=>await prodsnapshot.docs?prodsnapshot.docs.map(doc =>{ pro.push(doc.data())}):[]
     products()
-
+  noStore()
  
       return{
       props:{getdata:{consults:de,services:pro}}
@@ -31,6 +32,21 @@ export const getStaticProps =async()=>{
 }
 
 const Dash = ({getdata}) => {
+  const d =async()=>{
+    const de=[]
+  const pro=[]
+ 
+  const codelist = collection(db, 'consults');
+  const codesnapshot = await getDocs(codelist);
+  const catolist = codesnapshot.docs?codesnapshot.docs.map(doc =>{ de.push(doc.data());   }):de
+  const prodlist = collection(db, 'services');
+  const prodsnapshot = await getDocs(prodlist);
+  const products =async()=>await prodsnapshot.docs?prodsnapshot.docs.map(doc =>{ pro.push(doc.data())}):[]
+    products()
+  noStore()
+  console.log(de)
+  }
+  d()
 const[items,setitems]=useState(getdata.services?getdata.services:[])
 const[filt,setfilt]=useState(getdata.services?getdata.services:[])
 const[active,setactive]=useState("fda")
