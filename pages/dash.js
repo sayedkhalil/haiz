@@ -85,5 +85,5 @@ const onchan=(e)=>{
     </AuthRoute>
     );
 }
- 
+export const dynamic = 'force-dynamic';
 export default Dash;
