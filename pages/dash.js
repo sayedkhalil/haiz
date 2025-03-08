@@ -12,7 +12,6 @@ import Rang5 from '../layout/rang5';
 import Rang6 from '../layout/rang6';
 import Item from '../layout/item';
 import AuthRoute from "../authrout";
-import { unstable_noStore as noStore } from 'next/cache';
 export const getStaticProps =async()=>{
   const de=[]
   const pro=[]
@@ -24,7 +23,6 @@ export const getStaticProps =async()=>{
   const prodsnapshot = await getDocs(prodlist);
   const products =async()=>await prodsnapshot.docs?prodsnapshot.docs.map(doc =>{ pro.push(doc.data())}):[]
     products()
-  noStore()
  
       return{
       props:{getdata:{consults:de,services:pro}}
@@ -43,7 +41,6 @@ const Dash = ({getdata}) => {
   const prodsnapshot = await getDocs(prodlist);
   const products =async()=>await prodsnapshot.docs?prodsnapshot.docs.map(doc =>{ pro.push(doc.data())}):[]
     products()
-  noStore()
   console.log(de)
   }
   d()
