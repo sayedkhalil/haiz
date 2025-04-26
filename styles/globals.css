@@ -355,3 +355,36 @@ font-size: x-small;
   font-size: smaller;
   color: #262849;
 }
+.aler{
+  width: 100%;
+  height: 100%;
+  background-color: #5a5858ba;
+  position: fixed;
+  display: none;
+  z-index: 9999;
+}
+.boxx{
+  width: 90%;
+  background-color: #e4e2df;
+  margin-top: 90px;
+  margin-left: 5%;
+  padding: 10px;
+}
+.inptt{
+  display: flex;
+  justify-content: space-between;
+
+}
+.aler-b{
+  width: 100%;
+  height: 100%;
+  background-color: #5a5858ba;
+  position: fixed;
+  display: block;
+  z-index: 9999;
+  transition: all .2s ease-in-out;
+}
+.star{
+  justify-content: space-between;
+  display: flex;
+}

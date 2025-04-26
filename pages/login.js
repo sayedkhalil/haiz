@@ -29,6 +29,7 @@ const Login = () => {
      else{
         alert("تأكد من صحة البريد والرقم السري")
      }
+     
     };
   
     return (
