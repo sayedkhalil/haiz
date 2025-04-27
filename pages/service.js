@@ -147,7 +147,7 @@ const d = new Date();
            <span onClick={(x)=>onrating(5)} class={`fa fa-star fa-lg h1 ${rat5}`}></span>
            </div>
           <div className='mt-2 inptt'>
-          <button type="button" class="btn btn-danger btn-sm">تقييم التجربة</button>
+            <div></div>
           <button onClick={onhome} type="button" class="btn btn-primary btn-sm">العودة للصفحة الرئيسية</button> 
           </div>
   
